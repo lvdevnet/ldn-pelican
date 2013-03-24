@@ -3,7 +3,7 @@
 
 AUTHOR = u'luch'
 SITENAME = u'LDN Pelican'
-SITEURL = 'http://soulne4ny.github.com/ldn-pelican'
+SITEURL = 'http://lvdevnet.github.com/ldn-pelican'
 
 TIMEZONE = 'Europe/Paris'
 
@@ -23,6 +23,9 @@ SOCIAL = (
 
 DEFAULT_PAGINATION = 3
 
-STATIC_PATHS = ['images']
+STATIC_PATHS = ('images',)
+FILES_TO_COPY = (
+    ('/dev/null', '.nojekyll'),
+)
 
 FILENAME_METADATA = '(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*)'

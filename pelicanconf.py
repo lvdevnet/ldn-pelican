@@ -17,8 +17,12 @@ LINKS = (
 )
 
 # Social widget
-SOCIAL = ()
+SOCIAL = (
+    ('meetup', 'http://www.meetup.com/Latvian-Developers-Network/'),
+)
 
 DEFAULT_PAGINATION = 3
 
 STATIC_PATHS = ['images']
+
+FILENAME_METADATA = '(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*)'

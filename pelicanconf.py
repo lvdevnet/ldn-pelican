@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
-AUTHOR = u'luch'
 SITENAME = u'LDN Pelican'
 SITEURL = 'http://lvdevnet.github.com/ldn-pelican'
 

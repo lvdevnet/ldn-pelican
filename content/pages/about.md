@@ -13,4 +13,4 @@ We are social enough to get together
 and organize many interesting and positive things.
 If you're social too come and join one of our events!
 
-![](/static/images/ldn.png)
+![](../static/images/ldn.png)

@@ -13,6 +13,7 @@ LINKS = (
     ('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
     ('Python.org', 'http://python.org'),
     ('Jinja2', 'http://jinja.pocoo.org'),
+    ('GitHub', 'http://github.com/lvdevnet/ldn-pelican/'),
 )
 
 # Social widget
